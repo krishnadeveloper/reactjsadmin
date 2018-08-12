@@ -1,5 +1,5 @@
 import React from "react";
-
+import {NavLink} from "react-router-dom";
 export default () => {
         return(
             <header id="header" className="header">
@@ -95,8 +95,7 @@ export default () => {
                                 <a className="nav-link" href="#"><i className="fa fa- user"></i>Notifications <span className="count">13</span></a>
 
                                 <a className="nav-link" href="#"><i className="fa fa -cog"></i>Settings</a>
-
-                                <a className="nav-link" href="#"><i className="fa fa-power -off"></i>Logout</a>
+                                <NavLink className="nav-link" to="/login">Logout</NavLink>
                         </div>
                     </div>
 

@@ -1,2 +1,0 @@
-# reactjsadmin
-ReactJs Theme

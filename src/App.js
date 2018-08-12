@@ -1,20 +1,24 @@
 import React, { Component } from 'react';
-import {Router,Switch,Route,BrowserRouter} from "react-router-dom";
+import {Switch,Route,BrowserRouter} from "react-router-dom";
 //import logo from './logo.svg';
 //import './App.css';
 
 import Home from "./components/Home";
+import Login from "./components/Login/Login";
+import Register from "./components/Register/Register";
 
-class App extends Component {
+class Router extends Component {
   render() {
     return (
       <BrowserRouter>
         <Switch>
-          <Route path="/" component={Home}/>
+          <Route  exact path="/" component={Home} />
+          <Route exact path="/login" component={Login} />
+          <Route exact path="/register" component={Register} />
         </Switch>
       </BrowserRouter>
     );
   }
 }
 
-export default App;
+export default Router;
