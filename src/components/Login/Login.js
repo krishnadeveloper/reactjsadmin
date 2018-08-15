@@ -27,7 +27,7 @@ class Login extends Component{
                                         <input type="checkbox" /> Remember Me
                                     </label>
                                     <label className="pull-right">
-                                        <a href="/forget-password">Forgotten Password?</a>
+                                        <NavLink to="/forget-password">Forgotten Password?</NavLink>
                                     </label>
 
                                 </div>

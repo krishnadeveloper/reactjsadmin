@@ -22,15 +22,15 @@ export default () => {
                           </button>
                           <div className="dropdown-menu" aria-labelledby="notification">
                             <p className="red">You have 3 Notification</p>
-                            <a className="dropdown-item media bg-flat-color-1" href="#">
+                            <a className="dropdown-item media bg-flat-color-1" href="javascript:;">
                                 <i className="fa fa-check"></i>
                                 <p>Server #1 overloaded.</p>
                             </a>
-                            <a className="dropdown-item media bg-flat-color-4" href="#">
+                            <a className="dropdown-item media bg-flat-color-4" href="javascript:;">
                                 <i className="fa fa-info"></i>
                                 <p>Server #2 overloaded.</p>
                             </a>
-                            <a className="dropdown-item media bg-flat-color-5" href="#">
+                            <a className="dropdown-item media bg-flat-color-5" href="javascript:;">
                                 <i className="fa fa-warning"></i>
                                 <p>Server #3 overloaded.</p>
                             </a>
@@ -46,7 +46,7 @@ export default () => {
                           </button>
                           <div className="dropdown-menu" aria-labelledby="message">
                             <p className="red">You have 4 Mails</p>
-                            <a className="dropdown-item media bg-flat-color-1" href="#">
+                            <a className="dropdown-item media bg-flat-color-1" href="javascript:;">
                                 <span className="photo media-left"><img alt="avatar" src={"images/avatar/1.jpg"} /></span>
                                 <span className="message media-body">
                                     <span className="name float-left">Jonathan Smith</span>
@@ -54,7 +54,7 @@ export default () => {
                                         <p>Hello, this is an example msg</p>
                                 </span>
                             </a>
-                            <a className="dropdown-item media bg-flat-color-4" href="#">
+                            <a className="dropdown-item media bg-flat-color-4" href="javascript:;">
                                 <span className="photo media-left"><img alt="avatar" src={"images/avatar/2.jpg"} /></span>
                                 <span className="message media-body">
                                     <span className="name float-left">Jack Sanders</span>
@@ -62,7 +62,7 @@ export default () => {
                                         <p>Lorem ipsum dolor sit amet, consectetur</p>
                                 </span>
                             </a>
-                            <a className="dropdown-item media bg-flat-color-5" href="#">
+                            <a className="dropdown-item media bg-flat-color-5" href="javascript:;">
                                 <span className="photo media-left"><img alt="avatar" src={"images/avatar/3.jpg"} /></span>
                                 <span className="message media-body">
                                     <span className="name float-left">Cheryl Wheeler</span>
@@ -70,7 +70,7 @@ export default () => {
                                         <p>Hello, this is an example msg</p>
                                 </span>
                             </a>
-                            <a className="dropdown-item media bg-flat-color-3" href="#">
+                            <a className="dropdown-item media bg-flat-color-3" href="javascript:;">
                                 <span className="photo media-left"><img alt="avatar" src={"images/avatar/4.jpg"} /></span>
                                 <span className="message media-body">
                                     <span className="name float-left">Rachel Santos</span>
@@ -85,22 +85,22 @@ export default () => {
 
                 <div className="col-sm-5">
                     <div className="user-area dropdown float-right">
-                        <a href="#" className="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <a href="javascript:;" className="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             <img className="user-avatar rounded-circle" src={"images/admin.jpg"} alt="User Avatar" />
                         </a>
 
                         <div className="user-menu dropdown-menu">
-                                <a className="nav-link" href="#"><i className="fa fa- user"></i>My Profile</a>
+                                <a className="nav-link" href="javascript:;"><i className="fa fa- user"></i>My Profile</a>
 
-                                <a className="nav-link" href="#"><i className="fa fa- user"></i>Notifications <span className="count">13</span></a>
+                                <a className="nav-link" href="javascript:;"><i className="fa fa- user"></i>Notifications <span className="count">13</span></a>
 
-                                <a className="nav-link" href="#"><i className="fa fa -cog"></i>Settings</a>
+                                <a className="nav-link" href="javascript:;"><i className="fa fa -cog"></i>Settings</a>
                                 <NavLink className="nav-link" to="/login">Logout</NavLink>
                         </div>
                     </div>
 
                     <div className="language-select dropdown" id="language-select">
-                        <a className="dropdown-toggle" href="#" data-toggle="dropdown"  id="language" aria-haspopup="true" aria-expanded="true">
+                        <a className="dropdown-toggle" href="javascript:;" data-toggle="dropdown"  id="language" aria-haspopup="true" aria-expanded="true">
                             <i className="flag-icon flag-icon-us"></i>
                         </a>
                         <div className="dropdown-menu" aria-labelledby="language" >

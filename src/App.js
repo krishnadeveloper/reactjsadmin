@@ -18,7 +18,7 @@ class Router extends Component {
           <Route exact path="/login" component={Login} />
           <Route exact path="/register" component={Register} />
           <Route exact path="/forget-password" component={ForgetPassword} />
-          <Route exact path="ui-buttons" component={Buttons} />
+          <Route exact path="/ui-buttons" component={Buttons} />
         </Switch>
       </BrowserRouter>
     );
