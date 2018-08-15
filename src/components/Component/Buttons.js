@@ -1,6 +1,7 @@
 import React, {Component} from "react";
 import LeftNav from "../Comman/LeftNav";
 import Header from "../Comman/Header";
+import Breacrumb from "../Comman/Breacrumb";
 
 class Buttons extends Component{
     render(){
@@ -9,26 +10,7 @@ class Buttons extends Component{
                 <LeftNav />
                 <div id="right-panel" className="right-panel">
                     <Header />
-                    <div className="breadcrumbs">
-                        <div className="col-sm-4">
-                            <div className="page-header float-left">
-                                <div className="page-title">
-                                    <h1>Dashboard</h1>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-sm-8">
-                            <div className="page-header float-right">
-                                <div className="page-title">
-                                    <ol className="breadcrumb text-right">
-                                        <li><a href="#">Dashboard</a></li>
-                                        <li><a href="#">UI Elements</a></li>
-                                        <li className="active">Badges</li>
-                                    </ol>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    <Breacrumb />
 
                     <div className="content mt-3">
                         <div className="animated fadeIn">

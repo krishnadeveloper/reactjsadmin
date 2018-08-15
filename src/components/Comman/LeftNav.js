@@ -25,30 +25,30 @@ export default () => {
                                 <a href="javascript:;" className="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i className="menu-icon fa fa-laptop"></i>Components</a>
                                 <ul className="sub-menu children dropdown-menu">
                                     <li><i className="fa fa-puzzle-piece"></i> <NavLink to="/ui-buttons">Buttons</NavLink></li>
-                                    <li><i className="fa fa-id-badge"></i><NavLink to="ui-badges.html">Badges</NavLink></li>
-                                    <li><i className="fa fa-bars"></i><NavLink to="ui-tabs.html">Tabs</NavLink></li>
-                                    <li><i className="fa fa-share-square-o"></i><NavLink to="ui-social-buttons.html">Social Buttons</NavLink></li>
-                                    <li><i className="fa fa-id-card-o"></i><NavLink to="ui-cards.html">Cards</NavLink></li>
-                                    <li><i className="fa fa-exclamation-triangle"></i><NavLink to="ui-alerts.html">Alerts</NavLink></li>
-                                    <li><i className="fa fa-spinner"></i><NavLink to="ui-progressbar.html">Progress Bars</NavLink></li>
-                                    <li><i className="fa fa-fire"></i><NavLink to="ui-modals.html">Modals</NavLink></li>
-                                    <li><i className="fa fa-book"></i><NavLink to="ui-switches.html">Switches</NavLink></li>
-                                    <li><i className="fa fa-th"></i><NavLink to="ui-grids.html">Grids</NavLink></li>
-                                    <li><i className="fa fa-file-word-o"></i><NavLink to="ui-typgraphy.html">Typography</NavLink></li>
+                                    <li><i className="fa fa-id-badge"></i><NavLink to="ui-badges">Badges</NavLink></li>
+                                    <li><i className="fa fa-bars"></i><NavLink to="ui-tabs">Tabs</NavLink></li>
+                                    <li><i className="fa fa-share-square-o"></i><NavLink to="ui-social-buttons">Social Buttons</NavLink></li>
+                                    <li><i className="fa fa-id-card-o"></i><NavLink to="ui-cards">Cards</NavLink></li>
+                                    <li><i className="fa fa-exclamation-triangle"></i><NavLink to="ui-alerts">Alerts</NavLink></li>
+                                    <li><i className="fa fa-spinner"></i><NavLink to="ui-progressbar">Progress Bars</NavLink></li>
+                                    <li><i className="fa fa-fire"></i><NavLink to="ui-modals">Modals</NavLink></li>
+                                    <li><i className="fa fa-book"></i><NavLink to="ui-switches">Switches</NavLink></li>
+                                    <li><i className="fa fa-th"></i><NavLink to="ui-grids">Grids</NavLink></li>
+                                    <li><i className="fa fa-file-word-o"></i><NavLink to="ui-typgraphy">Typography</NavLink></li>
                                 </ul>
                             </li>
                             <li className="menu-item-has-children dropdown">
                                 <a href="javascript:;" className="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i className="menu-icon fa fa-table"></i>Tables</a>
                                 <ul className="sub-menu children dropdown-menu">
-                                    <li><i className="fa fa-table"></i><a href="tables-basic.html">Basic Table</a></li>
-                                    <li><i className="fa fa-table"></i><a href="tables-data.html">Data Table</a></li>
+                                    <li><i className="fa fa-table"></i><a href="tables-basic">Basic Table</a></li>
+                                    <li><i className="fa fa-table"></i><a href="tables-data">Data Table</a></li>
                                 </ul>
                             </li>
                             <li className="menu-item-has-children dropdown">
                                 <a href="javascript:;" className="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i className="menu-icon fa fa-th"></i>Forms</a>
                                 <ul className="sub-menu children dropdown-menu">
-                                    <li><i className="menu-icon fa fa-th"></i><a href="forms-basic.html">Basic Form</a></li>
-                                    <li><i className="menu-icon fa fa-th"></i><a href="forms-advanced.html">Advanced Form</a></li>
+                                    <li><i className="menu-icon fa fa-th"></i><a href="forms-basic">Basic Form</a></li>
+                                    <li><i className="menu-icon fa fa-th"></i><a href="forms-advanced">Advanced Form</a></li>
                                 </ul>
                             </li>
 
@@ -57,36 +57,36 @@ export default () => {
                             <li className="menu-item-has-children dropdown">
                                 <a href="javascript:;" className="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i className="menu-icon fa fa-tasks"></i>Icons</a>
                                 <ul className="sub-menu children dropdown-menu">
-                                    <li><i className="menu-icon fa fa-fort-awesome"></i><a href="font-fontawesome.html">Font Awesome</a></li>
-                                    <li><i className="menu-icon ti-themify-logo"></i><a href="font-themify.html">Themefy Icons</a></li>
+                                    <li><i className="menu-icon fa fa-fort-awesome"></i><a href="font-fontawesome">Font Awesome</a></li>
+                                    <li><i className="menu-icon ti-themify-logo"></i><a href="font-themify">Themefy Icons</a></li>
                                 </ul>
                             </li>
                             <li>
-                                <a href="widgets.html"> <i className="menu-icon ti-email"></i>Widgets </a>
+                                <a href="widgets"> <i className="menu-icon ti-email"></i>Widgets </a>
                             </li>
                             <li className="menu-item-has-children dropdown">
                                 <a href="javascript:;" className="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i className="menu-icon fa fa-bar-chart"></i>Charts</a>
                                 <ul className="sub-menu children dropdown-menu">
-                                    <li><i className="menu-icon fa fa-line-chart"></i><a href="charts-chartjs.html">Chart JS</a></li>
-                                    <li><i className="menu-icon fa fa-area-chart"></i><a href="charts-flot.html">Flot Chart</a></li>
-                                    <li><i className="menu-icon fa fa-pie-chart"></i><a href="charts-peity.html">Peity Chart</a></li>
+                                    <li><i className="menu-icon fa fa-line-chart"></i><a href="charts-chartjs">Chart JS</a></li>
+                                    <li><i className="menu-icon fa fa-area-chart"></i><a href="charts-flot">Flot Chart</a></li>
+                                    <li><i className="menu-icon fa fa-pie-chart"></i><a href="charts-peity">Peity Chart</a></li>
                                 </ul>
                             </li>
 
                             <li className="menu-item-has-children dropdown">
                                 <a href="javascript:;" className="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i className="menu-icon fa fa-area-chart"></i>Maps</a>
                                 <ul className="sub-menu children dropdown-menu">
-                                    <li><i className="menu-icon fa fa-map-o"></i><a href="maps-gmap.html">Google Maps</a></li>
-                                    <li><i className="menu-icon fa fa-street-view"></i><a href="maps-vector.html">Vector Maps</a></li>
+                                    <li><i className="menu-icon fa fa-map-o"></i><a href="maps-gmap">Google Maps</a></li>
+                                    <li><i className="menu-icon fa fa-street-view"></i><a href="maps-vector">Vector Maps</a></li>
                                 </ul>
                             </li>
                             <h3 className="menu-title">Extras</h3>
                             <li className="menu-item-has-children dropdown">
                                 <a href="javascript:;" className="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i className="menu-icon fa fa-glass"></i>Pages</a>
                                 <ul className="sub-menu children dropdown-menu">
-                                    <li><i className="menu-icon fa fa-sign-in"></i><a href="page-login.html">Login</a></li>
-                                    <li><i className="menu-icon fa fa-sign-in"></i><a href="page-register.html">Register</a></li>
-                                    <li><i className="menu-icon fa fa-paper-plane"></i><a href="pages-forget.html">Forget Pass</a></li>
+                                    <li><i className="menu-icon fa fa-sign-in"></i><a href="page-login">Login</a></li>
+                                    <li><i className="menu-icon fa fa-sign-in"></i><a href="page-register">Register</a></li>
+                                    <li><i className="menu-icon fa fa-paper-plane"></i><a href="pages-forget">Forget Pass</a></li>
                                 </ul>
                             </li>
                         </ul>

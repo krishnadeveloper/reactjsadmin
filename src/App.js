@@ -8,6 +8,7 @@ import Login from "./components/Login/Login";
 import Register from "./components/Register/Register";
 import Buttons from './components/Component/Buttons';
 import ForgetPassword from './components/Login/ForgetPassword';
+import Badges from './components/Component/Badges';
 
 class Router extends Component {
   render() {
@@ -19,6 +20,7 @@ class Router extends Component {
           <Route exact path="/register" component={Register} />
           <Route exact path="/forget-password" component={ForgetPassword} />
           <Route exact path="/ui-buttons" component={Buttons} />
+          <Route exact path="/ui-badges" component={Badges} />
         </Switch>
       </BrowserRouter>
     );
