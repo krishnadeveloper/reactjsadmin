@@ -11,13 +11,16 @@ import ForgetPassword from './components/Login/ForgetPassword';
 import Badges from './components/Component/Badges';
 import Tabs from './components/Component/Tabs';
 import SocialButtons from './components/Component/SocialButtons';
+import Cards from './components/Component/Cards';
+import Alerts from './components/Component/Alerts';
+import ProgressBars from './components/Component/ProgressBars';
 
 class Router extends Component {
   render() {
     return (
       <BrowserRouter>
         <Switch>
-          <Route  exact path="/" component={Home} />
+          <Route exact path="/" component={Home} />
           <Route exact path="/login" component={Login} />
           <Route exact path="/register" component={Register} />
           <Route exact path="/forget-password" component={ForgetPassword} />
@@ -25,6 +28,9 @@ class Router extends Component {
           <Route exact path="/ui-badges" component={Badges} />
           <Route exact path="/ui-tabs" component={Tabs} />
           <Route exact path="/ui-social-buttons" component={SocialButtons} />
+          <Route exact path="/ui-cards" component={Cards} />
+          <Route exact path="/ui-alerts" component={Alerts} />
+          <Route exact path="/ui-progressbar" component={ProgressBars} />
         </Switch>
       </BrowserRouter>
     );

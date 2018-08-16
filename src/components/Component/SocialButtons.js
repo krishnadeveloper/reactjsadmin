@@ -3,6 +3,7 @@ import {NavLink} from "react-router-dom";
 import LeftNav from "../Comman/LeftNav";
 import Header from "../Comman/Header";
 import Breacrumb from "../Comman/Breacrumb";
+import "../Component/css/SocialButtons.css";
 
 
 class SocialButtons extends Component{
