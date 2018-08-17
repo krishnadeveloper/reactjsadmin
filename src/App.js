@@ -14,6 +14,10 @@ import SocialButtons from './components/Component/SocialButtons';
 import Cards from './components/Component/Cards';
 import Alerts from './components/Component/Alerts';
 import ProgressBars from './components/Component/ProgressBars';
+import Modals from './components/Component/Modals';
+import Switches from './components/Component/Switches';
+import Grids from './components/Component/Grids';
+import Typhography from './components/Component/Typhography';
 
 class Router extends Component {
   render() {
@@ -31,6 +35,10 @@ class Router extends Component {
           <Route exact path="/ui-cards" component={Cards} />
           <Route exact path="/ui-alerts" component={Alerts} />
           <Route exact path="/ui-progressbar" component={ProgressBars} />
+          <Route exact path="/ui-modals" component={Modals} />
+          <Route exact path="/ui-switches" component={Switches} />
+          <Route exact path="/ui-grids" component={Grids} />
+          <Route exact path="/ui-typgraphy" component={Typhography} />
         </Switch>
       </BrowserRouter>
     );
