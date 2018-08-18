@@ -18,27 +18,37 @@ import Modals from './components/Component/Modals';
 import Switches from './components/Component/Switches';
 import Grids from './components/Component/Grids';
 import Typhography from './components/Component/Typhography';
-
+import TableRouter from './components/Tables/TableRouter';
+import NoMatch from './components/Comman/NoMatch';
+import FormRouter from './components/Forms/FormRouter';
+let match;
 class Router extends Component {
+  constructor(props){
+    super(props)
+    match = props.match;
+  }
   render() {
     return (
       <BrowserRouter>
         <Switch>
           <Route exact path="/" component={Home} />
-          <Route exact path="/login" component={Login} />
-          <Route exact path="/register" component={Register} />
-          <Route exact path="/forget-password" component={ForgetPassword} />
-          <Route exact path="/ui-buttons" component={Buttons} />
-          <Route exact path="/ui-badges" component={Badges} />
-          <Route exact path="/ui-tabs" component={Tabs} />
-          <Route exact path="/ui-social-buttons" component={SocialButtons} />
-          <Route exact path="/ui-cards" component={Cards} />
-          <Route exact path="/ui-alerts" component={Alerts} />
-          <Route exact path="/ui-progressbar" component={ProgressBars} />
-          <Route exact path="/ui-modals" component={Modals} />
-          <Route exact path="/ui-switches" component={Switches} />
-          <Route exact path="/ui-grids" component={Grids} />
-          <Route exact path="/ui-typgraphy" component={Typhography} />
+          <Route path="/login" component={Login} />
+          <Route path="/register" component={Register} />
+          <Route path="/forget-password" component={ForgetPassword} />
+          <Route path="/ui-buttons" component={Buttons} />
+          <Route path="/ui-badges" component={Badges} />
+          <Route path="/ui-tabs" component={Tabs} />
+          <Route path="/ui-social-buttons" component={SocialButtons} />
+          <Route path="/ui-cards" component={Cards} />
+          <Route path="/ui-alerts" component={Alerts} />
+          <Route path="/ui-progressbar" component={ProgressBars} />
+          <Route path="/ui-modals" component={Modals} />
+          <Route path="/ui-switches" component={Switches} />
+          <Route path="/ui-grids" component={Grids} />
+          <Route path="/ui-typgraphy" component={Typhography} />
+          <Route path="/table" component={TableRouter} />
+          <Route path="/forms" component={FormRouter} />
+          <Route component={NoMatch} />
         </Switch>
       </BrowserRouter>
     );
