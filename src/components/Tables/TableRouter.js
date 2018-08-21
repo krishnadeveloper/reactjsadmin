@@ -1,5 +1,5 @@
 import React,{Component} from "react"
-import {Switch,Route,BrowserRouter} from "react-router-dom"
+import {Switch,Route} from "react-router-dom"
 import BasicTable from "./BasicTable";
 import DataTable from "./DataTable";
 
@@ -26,12 +26,11 @@ class TableRouter extends Component{
     }
     render(){
         return(
-            <BrowserRouter>
-                <Switch>
-                    <Route path={match.url+"/tables-basic"} component={BasicTable} />
-                    <Route path={match.url+"/tables-data"}  component={DataTable} />
-                </Switch>
-            </BrowserRouter>
+            
+             <Switch>
+                <Route path={match.url+"/tables-basic"} component={BasicTable} />
+                <Route path={match.url+"/tables-data"}  component={DataTable} />
+             </Switch>
         )
     }
 }
