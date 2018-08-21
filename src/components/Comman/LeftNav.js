@@ -57,19 +57,18 @@ export default () => {
                             <li className="menu-item-has-children dropdown">
                                 <a href="javascript:;" className="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i className="menu-icon fa fa-tasks"></i>Icons</a>
                                 <ul className="sub-menu children dropdown-menu">
-                                    <li><i className="menu-icon fa fa-fort-awesome"></i><a href="font-fontawesome">Font Awesome</a></li>
-                                    <li><i className="menu-icon ti-themify-logo"></i><a href="font-themify">Themefy Icons</a></li>
+                                    <li><i className="menu-icon fa fa-fort-awesome"></i><NavLink to="/icon/font-fontawesome">Font Awesome</NavLink></li>
+                                    <li><i className="menu-icon ti-themify-logo"></i><NavLink to="/icon/font-themify">Themefy Icons</NavLink></li>
                                 </ul>
                             </li>
                             <li>
-                                <a href="widgets"> <i className="menu-icon ti-email"></i>Widgets </a>
-                            </li>
+                                <NavLink to="/widgets"> <i className="menu-icon ti-email"></i>Widgets </NavLink>                       </li>
                             <li className="menu-item-has-children dropdown">
                                 <a href="javascript:;" className="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i className="menu-icon fa fa-bar-chart"></i>Charts</a>
                                 <ul className="sub-menu children dropdown-menu">
-                                    <li><i className="menu-icon fa fa-line-chart"></i><a href="charts-chartjs">Chart JS</a></li>
-                                    <li><i className="menu-icon fa fa-area-chart"></i><a href="charts-flot">Flot Chart</a></li>
-                                    <li><i className="menu-icon fa fa-pie-chart"></i><a href="charts-peity">Peity Chart</a></li>
+                                    <li><i className="menu-icon fa fa-line-chart"></i><NavLink to="/charts/chartjs">Chart JS</NavLink></li>
+                                    <li><i className="menu-icon fa fa-area-chart"></i><NavLink to="/charts/flot">Flot Chart</NavLink></li>
+                                    <li><i className="menu-icon fa fa-pie-chart"></i><NavLink to="/charts/peity">Peity Chart</NavLink></li>
                                 </ul>
                             </li>
 

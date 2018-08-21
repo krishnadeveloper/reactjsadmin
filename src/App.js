@@ -21,6 +21,8 @@ import Typhography from './components/Component/Typhography';
 import TableRouter from './components/Tables/TableRouter';
 import NoMatch from './components/Comman/NoMatch';
 import FormRouter from './components/Forms/FormRouter';
+import IconRouter from './components/Icons/IconRouter';
+import Widgets from './components/Widgets/Widgets';
 let match;
 class Router extends Component {
   constructor(props){
@@ -48,6 +50,8 @@ class Router extends Component {
           <Route path="/ui-typgraphy" component={Typhography} />
           <Route path="/table" component={TableRouter} />
           <Route path="/forms" component={FormRouter} />
+          <Route path="/icon" component={IconRouter} />
+          <Route path="/widgets" component={Widgets} />
           <Route component={NoMatch} />
         </Switch>
       </BrowserRouter>
