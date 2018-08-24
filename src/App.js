@@ -23,6 +23,7 @@ import NoMatch from './components/Comman/NoMatch';
 import FormRouter from './components/Forms/FormRouter';
 import IconRouter from './components/Icons/IconRouter';
 import Widgets from './components/Widgets/Widgets';
+import ChartRouter from './components/Charts/ChartRouter';
 let match;
 class Router extends Component {
   constructor(props){
@@ -52,6 +53,7 @@ class Router extends Component {
           <Route path="/forms" component={FormRouter} />
           <Route path="/icon" component={IconRouter} />
           <Route path="/widgets" component={Widgets} />
+          <Route path="/charts" component={ChartRouter} />
           <Route component={NoMatch} />
         </Switch>
       </BrowserRouter>

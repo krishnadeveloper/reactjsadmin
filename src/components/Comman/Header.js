@@ -5,7 +5,7 @@ export default () => {
             <header id="header" className="header">
             <div className="header-menu">
                 <div className="col-sm-7">
-                    <a id="menuToggle" className="menutoggle pull-left"><i className="fa fa fa-tasks"></i></a>
+                    <a id="menuToggle" className="menutoggle pull-left"><i className="fa fa fa-angle-double-left"></i></a>
                     <div className="header-left">
                         <button className="search-trigger"><i className="fa fa-search"></i></button>
                         <div className="form-inline">
@@ -47,7 +47,7 @@ export default () => {
                           <div className="dropdown-menu" aria-labelledby="message">
                             <p className="red">You have 4 Mails</p>
                             <a className="dropdown-item media bg-flat-color-1" href="javascript:;">
-                                <span className="photo media-left"><img alt="avatar" src={"images/avatar/1.jpg"} /></span>
+                                <span className="photo media-left"><img alt="avatar" src={"/images/avatar/1.jpg"} /></span>
                                 <span className="message media-body">
                                     <span className="name float-left">Jonathan Smith</span>
                                     <span className="time float-right">Just now</span>
@@ -55,7 +55,7 @@ export default () => {
                                 </span>
                             </a>
                             <a className="dropdown-item media bg-flat-color-4" href="javascript:;">
-                                <span className="photo media-left"><img alt="avatar" src={"images/avatar/2.jpg"} /></span>
+                                <span className="photo media-left"><img alt="avatar" src={"/images/avatar/2.jpg"} /></span>
                                 <span className="message media-body">
                                     <span className="name float-left">Jack Sanders</span>
                                     <span className="time float-right">5 minutes ago</span>
@@ -63,7 +63,7 @@ export default () => {
                                 </span>
                             </a>
                             <a className="dropdown-item media bg-flat-color-5" href="javascript:;">
-                                <span className="photo media-left"><img alt="avatar" src={"images/avatar/3.jpg"} /></span>
+                                <span className="photo media-left"><img alt="avatar" src={"/images/avatar/3.jpg"} /></span>
                                 <span className="message media-body">
                                     <span className="name float-left">Cheryl Wheeler</span>
                                     <span className="time float-right">10 minutes ago</span>
@@ -71,7 +71,7 @@ export default () => {
                                 </span>
                             </a>
                             <a className="dropdown-item media bg-flat-color-3" href="javascript:;">
-                                <span className="photo media-left"><img alt="avatar" src={"images/avatar/4.jpg"} /></span>
+                                <span className="photo media-left"><img alt="avatar" src={"/images/avatar/4.jpg"} /></span>
                                 <span className="message media-body">
                                     <span className="name float-left">Rachel Santos</span>
                                     <span className="time float-right">15 minutes ago</span>
@@ -86,7 +86,7 @@ export default () => {
                 <div className="col-sm-5">
                     <div className="user-area dropdown float-right">
                         <a href="javascript:;" className="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            <img className="user-avatar rounded-circle" src={"images/admin.jpg"} alt="User Avatar" />
+                            <img className="user-avatar rounded-circle" src={"/images/admin.jpg"} alt="User Avatar" />
                         </a>
 
                         <div className="user-menu dropdown-menu">

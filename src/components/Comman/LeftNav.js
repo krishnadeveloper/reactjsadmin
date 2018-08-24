@@ -11,7 +11,7 @@ export default () => {
                             <i className="fa fa-bars"></i>
                         </button>
                         <a className="navbar-brand" href="javascript:;"><img src={"/images/logo.png"} alt="Logo" /></a>
-                        <a className="navbar-brand hidden" href="javascript:;"><img src={"images/logo2.png"} alt="Logo" /></a>
+                        <a className="navbar-brand hidden" href="javascript:;"><img src={"/images/logo2.png"} alt="Logo" /></a>
                     </div>
 
                     <div id="main-menu" className="main-menu collapse navbar-collapse">
@@ -72,20 +72,20 @@ export default () => {
                                 </ul>
                             </li>
 
-                            <li className="menu-item-has-children dropdown">
+                            {/* <li className="menu-item-has-children dropdown">
                                 <a href="javascript:;" className="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i className="menu-icon fa fa-area-chart"></i>Maps</a>
                                 <ul className="sub-menu children dropdown-menu">
                                     <li><i className="menu-icon fa fa-map-o"></i><a href="maps-gmap">Google Maps</a></li>
                                     <li><i className="menu-icon fa fa-street-view"></i><a href="maps-vector">Vector Maps</a></li>
                                 </ul>
-                            </li>
+                            </li> */}
                             <h3 className="menu-title">Extras</h3>
                             <li className="menu-item-has-children dropdown">
                                 <a href="javascript:;" className="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i className="menu-icon fa fa-glass"></i>Pages</a>
                                 <ul className="sub-menu children dropdown-menu">
-                                    <li><i className="menu-icon fa fa-sign-in"></i><a href="page-login">Login</a></li>
-                                    <li><i className="menu-icon fa fa-sign-in"></i><a href="page-register">Register</a></li>
-                                    <li><i className="menu-icon fa fa-paper-plane"></i><a href="pages-forget">Forget Pass</a></li>
+                                    <li><i className="menu-icon fa fa-sign-in"></i><NavLink to="/login">Login</NavLink></li>
+                                    <li><i className="menu-icon fa fa-sign-in"></i><NavLink to="/register">Register</NavLink></li>
+                                    <li><i className="menu-icon fa fa-paper-plane"></i><NavLink to="/forget-password">Forget Pass</NavLink></li>
                                 </ul>
                             </li>
                         </ul>
